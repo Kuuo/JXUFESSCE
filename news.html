@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School of Software and Conmunication Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/newscontent.css">
+  <link rel="shortcut icon" href="assets/img/icon.png">
+</head>
+<body>
+  <div id="marker"></div><!-- TO TOP MARKER -->
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-default">
+    <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">School of Software & Comunication Engineering</a>
+      <a class="navbar-brand navbrand2" href="index.html">SSCE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:">ABOUT SSCE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="javascript:">Page 1-1</a></li>
+            <li><a href="javascript:">Page 1-2</a></li>
+            <li><a href="javascript:">Page 1-3</a></li> 
+          </ul>
+        </li>
+        <li class="active"><a href="news.html">NEWS</a></li>
+        <li><a href="javascript:">RESEARCH</a></li>
+        <li><a href="javascript:">COOPERATION</a></li>
+        <li><a href="javascript:">ALUMNI</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-right: 20px;">
+          <a href="javascript:" data-toggle="modal" data-target="#Modal">
+            <span class="glyphicon glyphicon-log-in"></span> LOGIN
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAVIGATION BAR -->
+
+
+  <div class="jumbotron">
+    <div class="container newscontent">
+      <ul class="pager">
+        <li class="previous disabled"><a href="javascript:"><span aria-hidden="true">&larr;</span> Older</a></li>
+        <li class="next"><a href="javascript:">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
+      <h2 class="text-center">NEWS TITLE</h2>
+      <div class="ainfo text-center">
+        <span>Author: none</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>DATE: 12-12-2015</span>
+      </div>
+      <hr />
+      <div class="Ncontent">
+        <img src="assets/img/mailu.jpg" class="img-responsive" alt="pic" />
+        <p class="tindent">blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla</p>
+      </div>
+      <ul class="pager">
+        <li class="previous disabled"><a href="javascript:"><span aria-hidden="true">&larr;</span> Older</a></li>
+        <li class="next"><a href="javascript:">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- LOGIN MODAL -->
+  <div id="Modal" class="modal fade">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span> Login</h4>
+        </div><!-- /.MODAL-HEAD -->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="usr"><span class="glyphicon glyphicon-user"></span> Username:</label>
+            <input type="text" class="form-control" id="usr" placeholder="Enter username">
+          </div>
+          <div class="form-group">
+            <label for="pwd"><span class="glyphicon glyphicon-lock"></span> Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+          </div>
+          <button type="button" class="btn btn-block" data-dismiss="modal">LOGIN</button>
+        </div><!-- /.MODAL-BODY -->
+        <div class="modal-footer">
+          <p><a href="javascript:">Foget password?</a></p>
+          <button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+          <span class="glyphicon glyphicon-remove"></span> CANCEL</button>
+        </div><!-- /.MODAL-FOOTER -->
+      </div><!-- /.MODAL-CONTENT -->
+    </div>
+  </div>
+  <!-- LOGIN MODAL -->
+
+
+  <footer>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <a href="http://www.jxufe.edu.cn/" class="fsicon">
+          <img src="assets/img/ficon.png" class="img-responsive" alt="logo" width="80px" />
+        </a>
+        <a href="http://www.jxufe.edu.cn/" class="schooln"><h4>JiangXi University of Finance & Economics</h4></a>
+      </div>
+      <div class="col-sm-4">
+        <a id="TOTOP" href="#marker" data-toggle="tooltip" data-placement="bottom" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>&copy; 2015 The President and Fellows of JXUFE</p>
+        <p>&copy; 0144007 0144003 0143974</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="ficon">
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Mail to us">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Come to us">
+          	<span class="glyphicon glyphicon-plane"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Share">
+          	<span class="glyphicon glyphicon-share"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Rate for us">
+          	<span class="glyphicon glyphicon-thumbs-up"></span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+  });
+  </script>
+</body>
+</html>

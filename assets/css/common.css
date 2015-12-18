@@ -1,0 +1,364 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+
+.head {
+  margin: 0px;
+}
+.logo img {
+  margin-left: 70px;
+  display: block;
+}
+.head .ipt,
+.headbtn2 {
+  margin-top: 30px;
+}
+.head input {
+  border-radius: 0px;
+}
+.input-group-btn button,
+.headbtn2 button {
+  border: 1px solid #A51C30;
+  border-radius: 0;
+  background-color: #A51C30;
+  transition: .2s;
+  color: #FFF;
+}
+.input-group-btn button:hover,
+.headbtn2 button:hover {
+  background-color: #FFF;
+  border-left: 1px solid;
+  border-color: #A51C30;
+  color: #A51C30;
+  box-shadow: 0 0 20px #A51C30;
+}
+.input-group-btn button:hover span {
+  color: #A51C30;
+}
+
+
+.jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+
+#myNavbar, .navbar-default {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #5A5A5A;
+  border: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
+}
+.navbar .navbar-toggle,
+.navbar-default .navbar-nav>li>a {
+  transition: .3s;
+}
+.navbar .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: #FFF;
+}
+.navbar .navbar-toggle,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>.active>a,  
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav .dropdown>a:focus, 
+.navbar-default .navbar-nav .dropdown>a:hover,
+.dropdown-menu, .dropdown-menu>li>a {
+  background-color: #A51C30;
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: rgb(134, 14, 31);
+  color: #FFF
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #A51C30;
+}
+
+
+
+.modal-content {
+  border-radius: 0;
+}
+.modal-header,
+.modal-body button {
+  background-color: #A51C30;
+  color: #FFF;
+}
+.modal-header .close {
+  font-size: 40px;
+}
+.modal-title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.modal-body {
+  padding: 40px 80px 15px;
+}
+.modal-body button {
+  margin-top: 20px;
+}
+.modal-body input {
+  margin-bottom: 20px;
+}
+.modal-body button,
+.modal-footer button {
+  transition: .5s;
+  color: #FFF;
+  background-color: #A51C30;
+  border: 1px solid #A51C30;
+  border-radius: 0;
+}
+.modal-footer button:hover,
+.modal-body button:hover,
+.newsbtn:hover, .newsbtn:focus {
+  background-color: #FFF;
+  color: #A51C30;
+  border: 1px solid #A51C30;
+  box-shadow: 0 0 20px #A51C30;
+}
+.modal-footer a {
+  text-decoration: none;
+  float: left;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #A51C30;
+}
+.carousel-indicators li {
+  border-color: #A51C30;
+}
+.carousel-indicators li.active {
+  background-color: #A51C30;
+}
+.carousel img {
+  width: 100%;
+}
+
+
+
+.news {
+  background-color: #2D2D30;
+  color: #FFF;
+}
+.newsHEAD, .eventsHEAD {
+  font-size: 30px;
+  padding: 40px;
+  text-align: center;
+}
+.news a,
+.news a:hover,
+.news a:focus,
+.news a:visited,
+.news a:active,
+.events a,
+.events a:hover,
+.events a:focus,
+.events a:visited,
+.events a:active {
+  text-decoration: none;
+  color: #FFF;
+}
+.news .row {
+  margin-bottom: 30px;
+}
+.thumbnail {
+   padding: 0 0 15px 0;
+   border: none;
+   border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #333;
+}
+.newsbtn {
+  padding: 10px 20px;
+  background-color: #A51C30;
+  color: #FFF;
+  border-radius: 0;
+  transition: .2s;
+  border: 1px solid #A51C30;
+}
+
+.events {
+  background-color: #414141;
+}
+.eventslist {
+  height: 80px;
+  background-color: #FFF;
+  color: #333;
+  margin-bottom: 30px;
+  border: 1px solid #FFF;
+  transition: .2s;
+  position: relative;
+}
+.eventslist:hover {
+  border: 1px solid #A51C30;
+}
+.eventdate {
+  background-color: #A51C30;
+  color: #FFF;
+  height: 78px;
+  width: 20%;
+  margin: 0px;
+  float: left;
+}
+.eventdate span {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.eventdate span.day {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.eventcontent {
+  color: #333;
+  margin-left: 20px;
+  height: 78px;
+  float: left;
+}
+.eventslist .glyphicon-chevron-right {
+  float: right;
+  color: #FFF;
+  padding-left: 10px; 
+  padding-right: 10px; 
+  font-size: 40px;
+  height: 78px;
+  text-align: center;
+  line-height: 78px;
+  transition: .2s;
+  position: relative;
+  top: -.25px;
+}
+.eventslist:hover .glyphicon-chevron-right {
+  background: #A51C30;
+}
+.events .row {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #2D2D30;
+  color: #FFF;
+  padding: 50px;
+}
+.fsicon {
+  display: inline-block;
+}
+a.schooln {
+  color: #FFF;
+  text-decoration: none;
+}
+a#TOTOP {
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 20px; 
+  display: inline-block;
+  font-size: 25px;
+}
+.ficon {
+  margin-top: 30px;
+}
+.ficon a {
+  width: 50px;
+  height: 50px;
+  background-color: #A51C30;
+  color: #FFF;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 10px 10px;
+  margin: 5px;
+  transition: .2s;
+}
+.ficon a:hover {
+  background-color: #FFF;
+  color: #A51C30;
+}
+.ficon span {
+  font-size: 25px;
+}
+
+
+
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+@media (max-width: 1050px) {
+  .logo img {
+    margin-left: 20px;
+  }
+  #visitor {
+    display: none;
+  }
+  #JXUFE {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  .navbar-default .navbar-brand {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .headbtn2, .ipt {
+    display: none;
+  }
+  .head img {
+    margin: 0 auto;
+  }
+  .navbar-default .navbrand2 {
+    display: none;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #FFF;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: rgb(134, 14, 31);
+    color: #FFF;
+  }
+  .eventcontent h4, .eventcontent p {
+    font-size: 100%;
+  }
+  .eventslist .glyphicon-chevron-right {
+    display: none;
+  }
+  .affix + .container-fluid {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 520px) {
+  .navbar-default .navbar-brand {
+    display: none;
+  }
+  .navbar-default .navbrand2 {
+    display: inline-block;
+  }
+}
