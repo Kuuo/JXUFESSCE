@@ -1,3 +1,27 @@
+.btntotop {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+.btntotop a{
+  background-color: #FFF;
+  color: #A51C30;
+  border-radius: 0px;
+  border: 1px solid #A51C30;
+  transition: .2s;
+}
+.btntotop a:hover {
+  background-color: #A51C30;
+  color: #FFF;
+  border: 1px solid #A51C30;
+  box-shadow: 0 0 10px #A51C30;
+}
+@media (max-width: 768px) {
+  .btntotop {
+    display: none;
+  }
+}
+
 .newscontent {
   padding: 5%;
 }
@@ -16,11 +40,14 @@
 }
 .Ncontent img {
   display: block;
-  margin: 10px auto 30px;
+  margin: 10px auto 40px;
 }
 .Ncontent p {
-  word-wrap: break-word; 
-  word-break: normal; 
+  /*word-wrap: break-word; 
+  word-break: normal; */
+  padding: 1% 2%;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 hr {

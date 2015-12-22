@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School of Software and Conmunication Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/research.css">
+  <link rel="shortcut icon" href="assets/img/icon.png">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+  <div id="marker"></div><!-- TO TOP MARKER -->
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">School of Software & Comunication Engineering</a>
+      <a class="navbar-brand navbrand2" href="index.html">SSCE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li class="active"><a href="#rpic">RESEARCH</a></li>
+        <li><a href="#sec201512">2015-12</a></li>
+        <li><a href="#sec201511">2015-11</a></li>
+        <li><a href="#sec201510">2015-10</a></li>
+        <li><a href="#sec201509">2015-09</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-right: 20px;">
+          <a href="javascript:" data-toggle="modal" data-target="#Modal">
+            <span class="glyphicon glyphicon-log-in"></span> LOGIN
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAVIGATION BAR -->
+
+  <div id="rpic" class="researchimg">
+    <div class="caption text-center">
+      <h1>Research</h1><br>
+      <h4>We aim to develop innovative solutions to the world's most daunting challenges</h4>
+    </div>
+  </div>
+
+  <div class="container" style="margin: 10px auto 20px;" >
+    <div class="row">
+      <div id="sec201512">
+        <div class="page-header text-right">
+          <p>2015 - 12</p>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Mathemmmu</strong></h4>
+          <a href="javascript:"><img src="assets/img/r3.jpg" alt="newspic"></a>
+          <p>Mathemmmu is a website for those who love math....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Coding</strong></h4>
+          <a href="javascript:"><img src="assets/img/r1.jpg" alt="newspic"></a>
+          <p>Codes changes life....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+      </div>
+
+      <div id="sec201511">
+        <div class="page-header text-right">
+          <p>2015 - 11</p>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Nature pohoto stream</strong></h4>
+          <a href="javascript:"><img src="assets/img/r4.jpg" alt="newspic"></a>
+          <p>Showing photos for your friends....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Computer science</strong></h4>
+          <a href="javascript:"><img src="assets/img/r2.jpg" alt="newspic"></a>
+          <p>With computer....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+      </div>
+
+      <div id="sec201510">
+        <div class="page-header text-right">
+          <p>2015 - 10</p>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Research title</strong></h4>
+          <a href="javascript:"><img src="assets/img/r5.jpg" alt="newspic"></a>
+          <p>Research description....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+      </div>
+
+      <div id="sec201509">
+        <div class="page-header text-right">
+          <p>2015 - 09</p>
+        </div>
+        <div class="thumbnail text-center">
+          <h4><strong>Research title</strong></h4>
+          <a href="javascript:"><img src="assets/img/news3.jpg" alt="newspic"></a>
+          <p>Research description....</p>
+          <button class="newsbtn">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- LOGIN MODAL -->
+  <div id="Modal" class="modal fade">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span> Login</h4>
+        </div><!-- /.MODAL-HEAD -->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="usr"><span class="glyphicon glyphicon-user"></span> Username:</label>
+            <input type="text" class="form-control" id="usr" placeholder="Enter username">
+          </div>
+          <div class="form-group">
+            <label for="pwd"><span class="glyphicon glyphicon-lock"></span> Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+          </div>
+          <button type="button" class="btn btn-block" data-dismiss="modal">LOGIN</button>
+        </div><!-- /.MODAL-BODY -->
+        <div class="modal-footer">
+          <p><a href="javascript:">Foget password?</a></p>
+          <button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+          <span class="glyphicon glyphicon-remove"></span> CANCEL</button>
+        </div><!-- /.MODAL-FOOTER -->
+      </div><!-- /.MODAL-CONTENT -->
+    </div>
+  </div>
+  <!-- LOGIN MODAL -->
+
+
+  <footer>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <a href="http://www.jxufe.edu.cn/" class="fsicon">
+          <img src="assets/img/ficon.png" class="img-responsive" alt="logo" width="80px" />
+        </a>
+        <a href="http://www.jxufe.edu.cn/" class="schooln"><h4>JiangXi University of Finance & Economics</h4></a>
+      </div>
+      <div class="col-sm-4">
+        <a id="TOTOP" href="#marker" data-toggle="tooltip" data-placement="bottom" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>&copy; 2015 The President and Fellows of JXUFE</p>
+        <p>&copy; 0144007 0144003 0143974</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="ficon">
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Mail to us">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Come to us">
+          	<span class="glyphicon glyphicon-plane"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Share">
+          	<span class="glyphicon glyphicon-share"></span>
+          </a>
+          <a href="javascript:" data-toggle="tooltip" data-placement="bottom" title="Rate for us">
+          	<span class="glyphicon glyphicon-thumbs-up"></span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+  });
+  </script>
+</body>
+</html>

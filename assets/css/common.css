@@ -1,6 +1,10 @@
 * {
   font-family: "Microsoft YaHei";
 }
+*::selection {
+  color: #000;
+  background-color: rgba(90, 90, 90, 0.7);
+}
 
 .head {
   margin: 0px;
@@ -11,7 +15,7 @@
 }
 .head .ipt,
 .headbtn2 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .head input {
   border-radius: 0px;
